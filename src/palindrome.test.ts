@@ -1,11 +1,11 @@
 import { isPalindrom } from './palindrome';
 
 describe('isPalindrome', () => {
-  it('handles even length polindrmoe', () => {
+  it('handles even length polindrome', () => {
     expect(isPalindrom('anna')).toBe(true);
   });
 
-  it('handles odd length polindrmoe', () => {
+  it('handles odd length polindrome', () => {
     expect(isPalindrom('racecar')).toBe(true);
   });
 
@@ -13,7 +13,7 @@ describe('isPalindrome', () => {
     expect(isPalindrom('AnNa')).toBe(true);
   });
 
-  it('handles', () => {
+  it('handles no palindrome', () => {
     expect(isPalindrom('table')).toBe(false);
   });
 })
